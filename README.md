@@ -12,6 +12,9 @@ This respository is a collection of various useful algorithms and their Java imp
   + [Computational Geometry](https://github.com/jpa99/Algorithms#computational-geometry)
   + [Miscellaneous](https://github.com/jpa99/Algorithms#miscellaneous)
   + [Data Structures](https://github.com/jpa99/Algorithms#data-structures)
+  + [Project Euler](https://github.com/jpa99/Algorithms#project-euler)
+  + [Google Code Jam](https://github.com/jpa99/Algorithms#google-code-jam)
+  + [USACO](https://github.com/jpa99/Algorithms#usaco)
 * Resources
   + [Books](https://github.com/jpa99/Algorithms#books)
   + [Websites](https://github.com/jpa99/Algorithms#websites)
@@ -121,6 +124,15 @@ This respository is a collection of various useful algorithms and their Java imp
 * List
 * LinkedList
 
+## [Project Euler](https://github.com/jpa99/Algorithms/tree/master/ProjectEuler)
+Interesting math problems that can be solved computationally; full problem set available [here](https://projecteuler.net/archives)
+
+## [Google Code Jam](https://github.com/jpa99/Algorithms/tree/master/GoogleCodeJam)
+Competitive programming style problems from [previous competitions](https://code.google.com/codejam/past-contests)
+
+## [USACO](https://github.com/jpa99/Algorithms/tree/master/USACO)
+Algorithmic problems from past USA Computing Olympiad contests, problem database available [here](http://www.usaco.org/index.php?page=contests) 
+
 # Additional Resources
 If you're interested in expanding your knowledge of algorithms, I've included a list of resources that you can take a look at.
 
@@ -129,7 +141,6 @@ Some helpful books to formally introduce algorithims:
 * [Introduction to Algorithms (CLRS)](https://web.njit.edu/~wl256/download/cs610/Introduction-to-algorithm-3rdEdition.pdf) by Cormen, Leiserson, Rivest, Stein - Standard text for introductory algorithms courses; proof-based, very rigorous, comprehensive explanations.
 * [The Art of Computer Programming](https://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043) by Knuth - Extremely high level, incredibly detailed text; should be used primarily as a reference.
 * [Algorithms Unlocked](https://book-store.github.io/cse/thirdyear/[Thomas_H._Cormen]_Algorithms_unlocked(BookZZ.org).pdf) by Cormen - More accessible, beginner-friendly text; read this if you find CLRS too daunting.
-* [
 
 ## Websites
 Websites that offer detailed explanations and complexity analyses for some of the above algorithims: 
