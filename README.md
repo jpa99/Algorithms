@@ -10,6 +10,7 @@ This respository is a collection of various useful algorithms and data structure
   + [Strings](https://github.com/jpa99/Algorithms#strings)
   + [Math](https://github.com/jpa99/Algorithms#math)
   + [Computational Geometry](https://github.com/jpa99/Algorithms#computational-geometry)
+  + [Optimization](https://github.com/jpa99/Algorithms#optimization)
   + [Miscellaneous](https://github.com/jpa99/Algorithms#miscellaneous)
   + [Data Structures](https://github.com/jpa99/Algorithms#data-structures)
   + [Project Euler](https://github.com/jpa99/Algorithms#project-euler)
@@ -103,6 +104,13 @@ This respository is a collection of various useful algorithms and data structure
 * Convex Hull
   + Graham Scan
   + Jarvis March
+  
+## Optimization
+* Naive Optimization
+* Simplex (LP)
+* Simulated Annealing
+* Genetic Algorithms
+* Combinatoric Algorithms
 
 ## Miscellaneous
 * Kadane's Algorithm
@@ -125,13 +133,13 @@ This respository is a collection of various useful algorithms and data structure
 * LinkedList
 
 ## [Project Euler](https://github.com/jpa99/Algorithms/tree/master/ProjectEuler)
-Interesting math problems that can be solved computationally; full problem set available [here](https://projecteuler.net/archives)
+Interesting math problems that can be solved computationally; full problem set available [here](https://projecteuler.net/archives). The Project Euler folder contains the full inventory of problems with it's own table of contents [here](https://github.com/jpa99/Algorithms/tree/master/ProjectEuler/README.md).
 
 ## [Google Code Jam](https://github.com/jpa99/Algorithms/tree/master/GoogleCodeJam)
-Competitive programming style problems from [previous competitions](https://code.google.com/codejam/past-contests)
+Competitive programming style problems from [previous competitions](https://code.google.com/codejam/past-contests). The Google Code Jam folder contains the full inventory of problems with it's own table of contents [here](https://github.com/jpa99/Algorithms/tree/master/GoogleCodeJam/README.md).
 
 ## [USACO](https://github.com/jpa99/Algorithms/tree/master/USACO)
-Algorithmic problems from past USA Computing Olympiad contests, problem database available [here](http://www.usaco.org/index.php?page=contests) 
+Algorithmic problems from past USA Computing Olympiad contests, check out the full [problem database](http://www.usaco.org/index.php?page=contests). The USACO folder contains the full inventory of problems with it's own table of contents [here](https://github.com/jpa99/Algorithms/tree/master/USACO/README.md).
 
 # Additional Resources
 If you're interested in expanding your knowledge of algorithms, I've included a list of resources that you can take a look at.
