@@ -7,6 +7,7 @@
 ## Graph Traversal
  * [Breadth-First Search](https://github.com/jpa99/Algorithms/blob/master/Graph/BFS.java)
  * [Depth First Search](https://github.com/jpa99/Algorithms/blob/master/Graph/DFS.java)
+ * [Combined Traversal](https://github.com/jpa99/Algorithms/blob/master/Graph/Graph_Traversal.java)
 ## Shortest Path
  * Dijkstra's Algorithm
  * Bellman-Ford
@@ -19,7 +20,7 @@
  * [Karger's Min-Cut Algorithm](https://github.com/jpa99/Algorithms/blob/master/Graph/Karger.java)
  * Push-Relabel
  * Edmonds-Karp
- * [Ford-Fulkerson](https://github.com/jpa99/Algorithms/blob/master/Graph/Ford-Fulkerson.java)
+ * [Ford-Fulkerson](https://github.com/jpa99/Algorithms/blob/master/Graph/Ford_Fulkerson.java)
 
 ## Others
   * Tarjan's Algorithm
