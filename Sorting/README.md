@@ -1,4 +1,5 @@
 # Sorting Algorithms
+* [Sorting Algorithm Comparison](https://github.com/jpa99/Algorithms/edit/master/Sorting/Sorting.java)
 * [Timsort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Timsort.java)
 * [Radix Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Radix_Sort.java)
 * [Counting Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Counting_Sort.java)
