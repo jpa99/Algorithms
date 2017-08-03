@@ -1,1 +1,11 @@
 # Sorting Algorithms
+* [Timsort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Timsort.java)
+* [Radix Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Radix_Sort.java)
+* [Counting Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Counting_Sort.java)
+* [Quicksort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Quicksort.java)
+* [Heapsort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Heapsort.java)
+* [Mergesort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Mergesort.java)
+* [Insertion Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Insertion_Sort.java)
+* [Bubble Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Bubble_Sort.java)
+* [Selection Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Selection_Sort.java)
+* [Bogosort](https://github.com/jpa99/Algorithms/edit/master/Sorting/timesort.java)
