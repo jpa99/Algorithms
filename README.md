@@ -1,5 +1,5 @@
 # Algorithms
-This respository is a collection of various useful algorithms and data structures along with their Java implementations. This is a work in progress, so some algorithms may not be included. All files that have been added have been tested extensively and should be accurate, readable, and efficient. Feel free to suggest any algorithms that you'd like to see implemented in the future. 
+This respository is a collection of various useful algorithms and data structures along with their Java implementations. This is a work in progress, so some algorithms may not be included. All files that have been added have been tested extensively and should be accurate, readable, and efficient. Feel free to suggest any algorithms that you'd like to see implemented in the future. Don't hesitate to contact me with any questions, concerns, or feedback (my contact information is at the bottom of this file). If you found this repository helpful, I'd love to know :) 
 
 ## Table of Contents
 * Algorithms
