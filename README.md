@@ -113,6 +113,7 @@ This respository is a collection of various useful algorithms and data structure
 * Combinatoric Algorithms
 
 ## Miscellaneous
+* Fisher-Yates Shuffle
 * Kadane's Algorithm
 
 ## Data Structures
