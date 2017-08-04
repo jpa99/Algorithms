@@ -9,4 +9,4 @@
 * [Insertion Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Insertion_Sort.java)
 * [Bubble Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Bubble_Sort.java)
 * [Selection Sort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Selection_Sort.java)
-* [Bogosort](https://github.com/jpa99/Algorithms/edit/master/Sorting/timsort.java)
+* [Bogosort](https://github.com/jpa99/Algorithms/edit/master/Sorting/Bogosort.java)
