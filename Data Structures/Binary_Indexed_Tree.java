@@ -1,7 +1,7 @@
 public class Binary_Indexed_Tree {
 
 	public static void main(String[] args) throws IOException {
-  //testting BIT
+  		//testting BIT
 		BIT bit = new BIT(12);
 		bit.update(4, 1);
 		bit.update(3, 1);
@@ -22,12 +22,12 @@ public class Binary_Indexed_Tree {
 	              binary_indexed_tree = new int[++n];
 	              maxVal = n;
 	      }
-	      
-        public void update(int index, int val){
-	           while (index <= maxVal){
-	                 tree[index] += val;
-	                 index += (index & -index); //last bit removal
-	           }
+		
+	      public void update(int index, int val){
+		   while (index <= maxVal){
+			 tree[index] += val;
+			 index += (index & -index); //last bit removal
+		   }
 	      }
         
 	      //Returns the cumulative frequency of index index
