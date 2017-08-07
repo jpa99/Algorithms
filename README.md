@@ -43,7 +43,6 @@ This respository is a collection of various useful algorithms and data structure
 * Tarjan's Algorithm
 * Topological Sort
 * Strongly Connected Components
-* A*
 
 ## Dynamic Programming
 * 0-1 Knapsack
