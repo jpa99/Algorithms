@@ -167,7 +167,7 @@ More courses avilable [here](https://github.com/prakhar1989/awesome-courses#algo
 * [Randomized Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-856j-randomized-algorithms-fall-2002/index.htm) on MIT OCW, taught by Karger (MIT) - Graduate level course, explores randomized algorithms which aren't often covered comprehensively in many introductory algorithms texts/courses. Requires solid background in linear algebra, probabilty theory, and statistics. 
 * [Advanced Data Structures](http://courses.csail.mit.edu/6.851/spring12/lectures/) on MIT OCW, taught by Demaine (MIT) - Graduate level course, explores very advanced data structures and operations on them. 
 * [Advanced Algorithms](http://people.seas.harvard.edu/~minilek/cs224/fall14/hmwk.html) taught by Nelson (Harvard) - Very challenging problem sets; lectures assume broad knowledge about algorithms. 
-* [Introduction to Programming Contests](http://web.stanford.edu/class/cs97si/) taugth by Park (Stanford) - Good list of competitve programming algorithms and strategies for problem solving. Excellent resource for practice problems.
+* [Introduction to Programming Contests](http://web.stanford.edu/class/cs97si/) taught by Park (Stanford) - Good list of competitve programming algorithms and strategies for problem solving. Excellent resource for practice problems.
 
 ## Websites
 Websites that offer detailed explanations and complexity analyses for some of the above algorithims: 
@@ -177,6 +177,8 @@ Websites that offer detailed explanations and complexity analyses for some of th
 * [E-maxx](http://e-maxx-eng.appspot.com) - Translated from [Russian](http://e-maxx.ru/algo/) to English, very good list of useful algorithms and impelmentations along with explanations; widely used within the competitive programming community.
 * [Algorithms Discussion](http://codeforces.com/blog/entry/13529) - Codeforces blog post containing diverse array of algorithms (including less common techniques) and links to explanations/implementations.
 * [500 Data Structures and Algorithms](https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-practice-problems-and-their-solutions) - Collection of software engineering interview questions and solutions.
+* [Beehyve](https://www.beehyve.io) - Crowdsourced collection of algorithms and data structures and other topics in computer science as well as community discussions
+* [VisuAlgo](https://visualgo.net/en) - Great animations to help visiualize tricky algorithms and data structures
 
 
 ## Online Judges
