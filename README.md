@@ -173,7 +173,7 @@ More courses avilable [here](https://github.com/prakhar1989/awesome-courses#algo
 Websites that offer detailed explanations and complexity analyses for some of the above algorithims: 
 * [Topcoder Algorithms Tutorials](https://www.topcoder.com/community/data-science/data-science-tutorials/) - Phenomenal resource taught by competitive programming legends. Lots of challenging algorithms deconstructed and numerous applications demonstrated with Topcoder problems.
 * [GeeksforGeeks](http://www.geeksforgeeks.org) - Almost every well known algorithm is explained on this site with implementations, however some explanations are occasionally cursory/lacking in detail/unclear. 
-* [IOI Syllabus](https://people.ksp.sk/~misof/ioi-syllabus/) - Detailed list of topics covered by the IOI
+* [IOI Syllabus](https://people.ksp.sk/~misof/ioi-syllabus/) - Detailed list of topics covered by the IOI.
 * [E-maxx](http://e-maxx-eng.appspot.com) - Translated from [Russian](http://e-maxx.ru/algo/) to English, very good list of useful algorithms and impelmentations along with explanations; widely used within the competitive programming community.
 * [Algorithms Discussion](http://codeforces.com/blog/entry/13529) - Codeforces blog post containing diverse array of algorithms (including less common techniques) and links to explanations/implementations.
 * [500 Data Structures and Algorithms](https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-practice-problems-and-their-solutions) - Collection of software engineering interview questions and solutions.
@@ -184,9 +184,9 @@ Competitive programming websites and online judges which offer a plethora of int
 * [Topcoder](https://www.topcoder.com/my-dashboard) - Elite programming competitions; monetary prizes attract significant talent, makning this platform one of the most competitive. Very broad range of problems from beginner-friendly to extremely challenging. Challenge period avilable to win extra points by reading others' code and calling them out for incorrect solutions.  
 * [Codeforces](http://codeforces.com/contests) - On par with Topcoder, Codeforces offers longer, albeit similar problems, with similar styles. Only disadvantage is that competition times are often inconvenient if you live in the US. 
 * [Google Code Jam](https://code.google.com/codejam/) - Annual competition sponsored by Google, very fun problems (in my personal opinion).
-* [USACO]
-* [HackerRank]
-* [CodeChef](
+* [USACO](http://www.usaco.org) - USACO Training Gateway is an excellent segway into the world of competitive programming, offers great explanations and a good progression of problems to introduce algorithmic concepts. 
+* [HackerRank](https://www.hackerrank.com) - Platform of choice for most technical recruiters, HackerRank offers both short (1-3 hours) and long (2-7 days) competitions with consistent editorials, wrapped in a great UI.
+* [CodeChef](https://www.codechef.com) - Indian based platform, offering contests of varying lengths as well.
 * [LeetCode](https://leetcode.com) - Offers light, fast interview-style problems rather than heavy algorithmic challenges. Excellent resource for preparing for software engineering interviews.
 * [HackerEarth](https://www.hackerearth.com) - Similar to LeetCode, not as competitive, offers fun 1v1 challenges.
 * [Project Euler](https://projecteuler.net) - Mathematical and number theoretic problems that require both mathematical insight and programming skill to solve; around 600 problems currently available. 
