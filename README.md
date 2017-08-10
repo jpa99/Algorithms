@@ -150,6 +150,11 @@ Some helpful books to formally introduce algorithims:
 * [Introduction to Algorithms (CLRS)](https://web.njit.edu/~wl256/download/cs610/Introduction-to-algorithm-3rdEdition.pdf) by Cormen, Leiserson, Rivest, Stein - Standard text for introductory algorithms courses; proof-based, very rigorous, comprehensive explanations.
 * [The Art of Computer Programming](https://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043) by Knuth - Extremely high level, incredibly detailed text; should be used primarily as a reference.
 * [Algorithms Unlocked](https://book-store.github.io/cse/thirdyear/[Thomas_H._Cormen]_Algorithms_unlocked(BookZZ.org).pdf) by Cormen - More accessible, beginner-friendly text; read this if you find CLRS too daunting.
+* [Algorithm Design](http://184.168.171.185/BOOKS/DVD%201/Algorithm%20Design%20-%20Jon%20Kleinberg,%20Eva%20Tardos.pdf) by Kleinberg and Tardos - Great introductory book, probably better suited for beginners than CLRS; great explanations of graph theoretic algorithms and analyses.
+* [Algorithms](http://algs4.cs.princeton.edu/home/) by Sedgewick - Excellent book, very comparable to Algorithm Design by Kleinberg and Tardos in terms of accessibility; offers very good implementations of key algorithms in Java.
+* [The Algorithm Design Manual](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.4772&rep=rep1&type=pdf) by Skiena - Perhaps a different flavor of algorithms books, Skiena introduces algorithms and problem types but doesn't delve into as much rigor as some of the above texts.
+* [Introduction to Algorithms: A Creative Approach](https://github.com/haseebr/competitive-programming/blob/master/Materials/Introduction%20to%20Algorithms%20by%20Udi%20Manber.pdf) by Manber - Very light, not as proof-heavy as industry standard texts like CLRS but still very informative; provides excellent algorithmic intuition.
+* [Algorithms](http://www.cse.iitd.ernet.in/~naveen/courses/CSL630/all.pdf) by Dasgupta, Papadimitriou, Vazirani -  Good, very readable, beginner-friendly algorithms textbook; used for decades at Berkeley and UCSD. 
 
 ## Websites
 Websites that offer detailed explanations and complexity analyses for some of the above algorithims: 
