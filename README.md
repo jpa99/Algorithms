@@ -76,6 +76,7 @@ This respository is a collection of various useful algorithms and data structure
 ## Strings
 * String Searching
   + Aho-Corasick
+  + Z Algorithm
   + Knuth-Morris-Pratt
   + Boyer-Moore
   + Rabin-Karp
@@ -94,7 +95,6 @@ This respository is a collection of various useful algorithms and data structure
   + Naive
   + Sieve of Erastothenes
   + Miller-Rabin
-  + Agarwal-Kayal-Saxena
 * Karatsuba's Algorithm
 * Fast Exponentiation
 * Strassen's Algorithm
@@ -114,6 +114,7 @@ This respository is a collection of various useful algorithms and data structure
 ## Miscellaneous
 * Fisher-Yates Shuffle
 * Kadane's Algorithm
+* Subarray Inversions
 
 ## Data Structures
 * Graph
