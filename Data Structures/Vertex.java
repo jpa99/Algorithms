@@ -1,21 +1,13 @@
+static class Vertex{
+	public int name;
+	public int distance;
 
-public class Vertex {
-	
-	//Vertex class
-	//probably unnecessary, but already built into Prim's Algorith implementation
-	
-	int value;
-	
-	public Vertex(int val){
-		value=val;
+	public Vertex(int name, int distance){
+		this.name = name;
+		this.distance = distance;
 	}
-	
-	public int getValue(){
-		return value;
-	}
-	
+
 	public String toString(){
-		return String.valueOf(value);
+		return "Name: "+name+", Weight: "+distance;
 	}
-	
 }
