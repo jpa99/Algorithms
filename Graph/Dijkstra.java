@@ -29,7 +29,7 @@ public class Dijkstra {
 	 
 	 Complexity:
 	 	* Time - O(|V|^2) where V is set of vertices and E is set of edges
-	 	* Space - O(|V|) to store visited vertices
+	 	* Space - O(|E|) to store edges via adjacency list
 	 	
 	 Functions Defined:
 	 	* dijkstra() - Main algorithm to return shortest path between source and destination
