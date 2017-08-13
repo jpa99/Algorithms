@@ -28,8 +28,8 @@ public class Dijkstra {
 	 Algorithm: BFS with priority queue; maintains distance to certain node and updates along with previous 
 	 
 	 Complexity:
-	 	* Time - O(|V|^2) where V is set of vertices and E is set of edges
-	 	* Space - O(|E|) to store edges via adjacency list
+	 	* Time - O(|E|log|V|) where V is set of vertices and E is set of edges
+	 	* Space - O(|V|) to store visited vertices
 	 	
 	 Functions Defined:
 	 	* dijkstra() - Main algorithm to return shortest path between source and destination
@@ -92,13 +92,13 @@ public class Dijkstra {
 		int[] distance = new int[adjlist.length];
 		int[] prev = new int[adjlist.length];
 		Arrays.fill(distance, Integer.MAX_VALUE);
-		PriorityQueue<Integer> q=new PriorityQueue<Integer>();
-		q.add(source);
+		PriorityQueue<Vertex> q=new PriorityQueue<Vertex>();
+		q.add(new Vertex(source, 0));
 		distance[source] = 0;
 		visited[source] = true;
 		ArrayList<Vertex> bft = new ArrayList<Vertex>();
 		while(!q.isEmpty()){
-			int top=q.poll();
+			int top=q.poll().name;
 			visited[top] = true;
 			for(Vertex node:adjlist[top]){
 				if(q.contains(node.name)) continue; //Saves lots of time
@@ -107,7 +107,7 @@ public class Dijkstra {
 					distance[node.name] = distance[top] + node.val;
 				}			
 				if(!visited[node.name]){
-					q.add(node.name);
+					q.add(new Vertex(node.name, distance[node.name]));
 					visited[node.name] = true;
 				}
 			}
@@ -183,7 +183,7 @@ public class Dijkstra {
 	}
 
 	//defined Vertex class for weighted graphs to hold edge weights
-	static class Vertex{
+	static class Vertex implements Comparable<Vertex>{
 		public int name;
 		public int val;
 		
@@ -199,6 +199,10 @@ public class Dijkstra {
 		
 		public String toString(){
 			return "Name: "+name+", Value: "+val;
+		}
+		
+		public int compareTo(Vertex v){
+			return Integer.compare(val, v.val);
 		}
 	}
 	
