@@ -25,20 +25,16 @@ public class Bellman_Ford {
 
 	 Problem (informal): Given a weighted graph G, source u and sink v, find minimally weighted u~v path in G
 	 
-	 Algorithm: BFS with priority queue; maintains distance to certain node and updates along with previous 
+	 Algorithm: Iterates over all vertices and edges and relaxes edges
 	 
 	 Complexity:
 	 	* Time - O(|V|*|E|) since main loop iterates over all vertices and edges
 	 	* Space - O(|V| + |E|) to store edges and vertices
 	 	
 	 Functions Defined:
-	 	* bellman_ford() - Main algorithm to return all pairs shortest path
+	 	* bellman_ford() - Main algorithm to return shortest path or Integer.MIN_VALUE if negative cycle exists
 	 	* Vertex() - Custom class to store weighted graphs
 	 	* display() - Takes adjacency matrix input and displays GUI graph visualization (*Requires JUNG Library*)
-	 
-
-	 Notes:
-	 	* IterativeBFS runs 3-4x faster than QueueBFS in practice (on average)
 	 	
 	 */
 
@@ -53,15 +49,15 @@ public class Bellman_Ford {
 		adjlist[4] = new ArrayList<Vertex>();
 		
 		adjlist[1].add(new Vertex(2, -1)); adjlist[1].add(new Vertex(3, 3));
-		adjlist[2].add(new Vertex(3, 1)); adjlist[2].add(new Vertex(4, 2)); adjlist[2].add(new Vertex(4, 1));
+		adjlist[2].add(new Vertex(3, 1)); adjlist[2].add(new Vertex(4, 5)); adjlist[2].add(new Vertex(4, -3));
 		adjlist[3].add(new Vertex(4, 2));
-		adjlist[4].add(new Vertex(1, -4));
+		adjlist[4].add(new Vertex(1, 10));
 		
 		//Starting node
 		int source = 1;
 		//Ending node
 		int dest = 4;
-		System.out.print(bellman_ford(adjlist, source));
+		System.out.print(bellman_ford(adjlist, source, dest));
 		
 		//Uncomment next line to visualize graph (need to convert to array first
 		//display(adj, "Graph");
@@ -69,13 +65,13 @@ public class Bellman_Ford {
 	
 	//Queue based implementation (CLRS)
 	//Returns value of shortest path from source to destination
-	public static boolean bellman_ford(ArrayList<Vertex>[] adjlist, int source){
+	public static int bellman_ford(ArrayList<Vertex>[] adjlist, int source, int dest){
 		boolean[] visited = new boolean[adjlist.length];
 		int[] distance = new int[adjlist.length];
 		int[] prev = new int[adjlist.length];
 		Arrays.fill(distance, Integer.MAX_VALUE);
-		distance[0] = 0;
-		for(int ver=1;ver<=adjlist.length;ver++){ //iterates over all vertices
+		distance[1] = 0;
+		for(int ver=1;ver<adjlist.length;ver++){ //iterates over all vertices
 			for(int i=1;i<adjlist.length;i++){ //iterates over all edges
 				for(Vertex neighbor:adjlist[i]){
 					if(distance[i] + neighbor.weight < distance[neighbor.val]){
@@ -88,11 +84,12 @@ public class Bellman_Ford {
 		
 		for(int i=1;i<adjlist.length;i++){ //iterates over all edges
 			for(Vertex neighbor:adjlist[i]){
-				if(distance[neighbor.val] > neighbor.edge + distance[i])
-					return false;
+				if(distance[neighbor.val] > neighbor.weight + distance[i])
+					return Integer.MIN_VALUE; //Negative cycle exists
 			}
 		}
-		return true;
+		
+		return distance[dest];
 	}
 		
 	//Uses JUNG to display 2D graph 
