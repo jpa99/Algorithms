@@ -199,9 +199,6 @@ Competitive programming websites and online judges which offer a plethora of int
 * [Kattis](https://open.kattis.com) - Good, reliable online judge used by ACM-ICPC.
 
 
-## Github Libraries
-(In case you don't speak Java)
-
 Developed By
 ------------
 
