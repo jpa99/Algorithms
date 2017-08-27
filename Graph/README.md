@@ -12,7 +12,7 @@
  * [Dijkstra's Algorithm](https://github.com/jpa99/Algorithms/blob/master/Graph/Dijkstra.java)
  * [Bellman-Ford](https://github.com/jpa99/Algorithms/blob/master/Graph/Bellman_Ford.java)
  * [Floyd-Warshall](https://github.com/jpa99/Algorithms/blob/master/Graph/Floyd_Warshall.java)
- * Johnson's Algorithm
+ * [Johnson's Algorithm](https://github.com/jpa99/Algorithms/blob/master/Graph/Johnson.java)
 ## Minimum Spanning Tree
  * Kruskal's Algorithm
  * [Prim's Algorithm](https://github.com/jpa99/Algorithms/blob/master/Graph/Prim.java)
