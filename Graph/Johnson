@@ -35,10 +35,6 @@ public class Johnson {
 	 	* johnson() - Main algorithm to return all pairs shortest path
 	 	* Vertex() - Custom class to store weighted graphs
 	 	* display() - Takes adjacency matrix input and displays GUI graph visualization (*Requires JUNG Library*)
-	 
-
-	 Notes:
-	 	* IterativeBFS runs 3-4x faster than QueueBFS in practice (on average)
 	 	
 	 */
 
@@ -55,7 +51,7 @@ public class Johnson {
 		adjlist[1].add(new Vertex(2, 1)); adjlist[1].add(new Vertex(3, 3));
 		adjlist[2].add(new Vertex(3, 1)); adjlist[2].add(new Vertex(4, 2)); adjlist[2].add(new Vertex(4, 1));
 		adjlist[3].add(new Vertex(4, 2));
-		adjlist[4].add(new Vertex(1, 4));
+		adjlist[4].add(new Vertex(1, -1));
 		
 		//Starting node
 		int source = 1;
@@ -92,8 +88,12 @@ public class Johnson {
 		shortest_path.add(Integer.MAX_VALUE);
 		for(int i=1;i<len;i++){
 			ArrayList<Integer> temp = dijkstra(adjlist, i);
+			System.out.println(temp);
 			if(temp.get(0) < shortest_path.get(0))
 				shortest_path = temp;
+			
+			System.out.println(temp);
+			
 		}
 		return shortest_path;
 	}
@@ -149,8 +149,6 @@ public class Johnson {
 					distance[node.val] = distance[top] + node.weight;
 				}			
 				if(!visited[node.val]){
-					System.out.println("n: "+node.val);
-					System.out.println("d: "+distance[node.val]);
 					q.add(new Vertex(node.val, distance[node.val]));
 					visited[node.val] = true;
 				}
@@ -234,24 +232,28 @@ public class Johnson {
 	}
 
 	//defined Vertex class for weighted graphs to hold edge weights
-	static class Vertex{
-		public int val;
-		public int weight;
+		static class Vertex implements Comparable<Vertex>{
+			public int val;
+			public int weight;
+			
+			public Vertex(int val){
+				this.val = val;
+			}
+			
+			public Vertex(int val, int weight){
+				this.weight = weight;
+				this.val = val;
+			}
 		
-		public Vertex(int val){
-			this.val = val;
+			
+			public String toString(){
+				return "Name: "+val+", Weight: "+weight;
+			}
+			
+			public int compareTo(Vertex v){
+				return Integer.compare(weight, v.weight);
+			}
 		}
-		
-		public Vertex(int val, int weight){
-			this.val = val;
-			this.weight = weight;
-		}
-	
-		
-		public String toString(){
-			return "Val: "+val+", Weight: "+weight;
-		}
-	}
 	
 	public static int[] list2arr(ArrayList<Integer> list){
 		return list.stream().mapToInt(i->i).toArray();
