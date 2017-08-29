@@ -33,6 +33,8 @@ public class Johnson {
 	 	
 	 Functions Defined:
 	 	* johnson() - Main algorithm to return all pairs shortest path
+	 	* dijkstra() - Dijkstra's Algorithm
+	 	* bellman_ford() - Bellman-Ford Algorithm
 	 	* Vertex() - Custom class to store weighted graphs
 	 	* display() - Takes adjacency matrix input and displays GUI graph visualization (*Requires JUNG Library*)
 	 	
