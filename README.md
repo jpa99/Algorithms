@@ -1,3 +1,14 @@
+<p align="center"><img src="https://github.com/Crypto-AI/Gemini/blob/master/media/logo.png" width="150px"><p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Python](https://img.shields.io/badge/python-v3.5+-blue.svg)
+[![GitHub Issues](https://img.shields.io/github/issues/friendly-pig/gemini.backtester.svg)](https://github.com/friendly-pig/gemini.backtester/issues)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<br>
+<p align="center"><img src="https://github.com/friendly-pig/gemini.backtester/blob/master/media/schematic.gif" width="550px"><p>
+
 # Algorithms
 This respository is a collection of various useful algorithms and data structures along with their Java implementations, intended for educational use. This is a work in progress, so some algorithms may not be included. All files that have been added have been tested extensively and should be accurate, readable, and efficient. Feel free to suggest any algorithms that you'd like to see implemented in the future. Don't hesitate to contact me with any questions, concerns, or feedback (my contact information is at the bottom of this file). If you found this repository helpful, I'd love to know :) 
 
