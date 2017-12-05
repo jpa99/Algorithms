@@ -1,6 +1,6 @@
 # Algorithms
 ![Build](https://img.shields.io/wercker/ci/wercker/docs.svg)
-![Java](https://img.shields.io/badge/Java-8-red.svg)
+![Java](https://img.shields.io/badge/Java-8-black.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
