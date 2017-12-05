@@ -1,8 +1,9 @@
 # Algorithms
+![Build](https://img.shields.io/wercker/ci/wercker/docs.svg)
 ![Java](https://img.shields.io/badge/Java-8-red.svg)
-![Java](https://img.shields.io/badge/Build-passing-green.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)
 
 
 This respository is a collection of various useful algorithms and data structures along with their Java implementations, intended for educational use. This is a work in progress, so some algorithms may not be included. All files that have been added have been tested extensively and should be accurate, readable, and efficient. Feel free to suggest any algorithms that you'd like to see implemented in the future. Don't hesitate to contact me with any questions, concerns, or feedback (my contact information is at the bottom of this file). If you found this repository helpful, I'd love to know :) 
