@@ -1,8 +1,9 @@
 # Optimization Algorithms
-This folder contains optimization implementations for locational optimization problems. The general problem statement solveable by this flavor of optimization is as follows: Given a set S of n candidate 2-tuples (ordered pairs) and a function cost(P): R^2 --> R where P = {(x_1, y_1), (x_2, y_2), ..., (x_k, y_k)}, find a subset Q of k 2-tuples (ordered pairs) such that cost(Q) is minimized. This can be reformulated as selecting k optimal points from a set of n candidate points. 
+This folder contains implementations for classical optimization techniques that appear in
+competitive programming, operations research, and quantitative finance. Algorithms include:
 
-* [Naive Optimization](https://github.com/jpa99/Algorithms/blob/master/Optimization/LightConfigurationOptimization.java)
-* Simplex (LP)
-* [Simulated Annealing](https://github.com/jpa99/Algorithms/blob/master/Optimization/LightConfigurationOptimizationSA.java)
-* Genetic Algorithms
-* Combinatoric Algorithms
+* [Naive Optimization](LightConfigurationOptimization.java)
+* [Simulated Annealing](LightConfigurationOptimizationSA.java)
+* [Iterative Locational Optimization](LocationalOptimizationIterative.java)
+* [Linear Programming via Simplex](LinearProgrammingSimplex.java)
+* [Markowitz Mean-Variance Portfolio Optimization](MarkowitzPortfolioOptimization.java)
