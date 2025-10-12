@@ -113,6 +113,7 @@ This respository is a collection of various useful algorithms and data structure
 ## Optimization
 * Naive Optimization
 * Simplex (LP)
+* Markowitz Mean-Variance Portfolio Optimization
 * Simulated Annealing
 * Genetic Algorithms
 * Combinatoric Algorithms
@@ -127,6 +128,8 @@ This respository is a collection of various useful algorithms and data structure
 * Tree
 * Binary Tree
 * Fenwick Tree (Binary Indexed Tree)
+* Disjoint Set Union (Union-Find)
+* Segment Tree
 * Red-Black Tree
 * AVL Tree
 * B-Tree
